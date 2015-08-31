@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/Disc2/Algo2/Primer/fun.cpp
+fun.h
+/media/Disc2/Algo2/Primer/fun.h
+cmath
+/media/Disc2/Algo2/Primer/cmath
+
+/media/Disc2/Algo2/Primer/fun.h
+

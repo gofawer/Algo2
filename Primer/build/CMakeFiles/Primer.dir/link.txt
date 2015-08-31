@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Primer.dir/fun.cpp.o CMakeFiles/Primer.dir/primer.cpp.o  -o Primer -rdynamic 

@@ -1,0 +1,1 @@
+/media/Disc2/Algo2/Primer/build/CMakeFiles/Primer.dir
