@@ -19,6 +19,6 @@ unorderarray.h
 /media/Disc2/Algo2/UnorderArray/unorderarray.h
 cassert
 -
-malloc.h
+cstring
 -
 

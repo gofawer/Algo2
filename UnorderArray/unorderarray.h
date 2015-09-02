@@ -21,6 +21,11 @@ public:
         array = nullptr;
     }
 
+    T& operator[](int index) {
+        assert(array != nullptr && index  <= numElem);
+        return array[index];
+    }
+
     void push(T val) {
         assert(array != nullptr);
 
@@ -54,6 +59,14 @@ public:
 
     void clear() {
         numElem = 0;
+    }
+
+    int count() {
+        return numElem;
+    }
+
+    int capacity() {
+        return maxSize;
     }
 
 private:

@@ -9,6 +9,9 @@ int main()
     unAr.push(45);
     unAr.pop();
 
+    cout << unAr.count() << endl;
+    cout << unAr.capacity() << endl;
+
     return 0;
 }
 
