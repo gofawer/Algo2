@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/LL.dir/main.cpp.o  -o LL -rdynamic 

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/SkyMap.dir/main.cpp.o  -o SkyMap -rdynamic 
