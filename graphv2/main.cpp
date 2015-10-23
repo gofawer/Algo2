@@ -21,10 +21,14 @@ void addEdge(int a, int b) {
 void displayEdge() {
     for ( int i = 0; i < numVer+1; ++i ) {
         if ( w[i].connect.size() ) {
-            for ( auto &elem : w[i].connect )
+            for ( const auto &elem : w[i].connect )
                 cout << i << " <--> " << elem << endl;
         }
     }
+}
+
+void dfs() {
+
 }
 
 int main()
@@ -37,7 +41,6 @@ int main()
     addEdge(3, 7);
 
     displayEdge();
-
 
     return 0;
 }
