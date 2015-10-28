@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/ratio_s.dir/main.c.o  -o ratio_s -rdynamic 

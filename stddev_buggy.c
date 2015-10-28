@@ -15,7 +15,7 @@ meanvar mean_and_var(const double *data)
     size_t count = 0;
 
     for (size_t i = 0; !isnan(data[i]); ++i) {
-        ratio = count / (count + 1);
+        ratio = count / (count + 1.0);
         count++;
         avg  *= ratio;
         avg2 *= ratio;
@@ -30,9 +30,10 @@ meanvar mean_and_var(const double *data)
 
 int main()
 {
-    double d[] = {34124.75, 34124.48,
-                  34124.90, 34125.31,
-                  34125.05, 34124.98, NAN};
+    double d[] = {
+        34124.75, 34124.48,
+        34124.90, 34125.31,
+        34125.05, 34124.98, NAN };
     meanvar mv = mean_and_var(d);
     printf("mean: %.10g var: %.10g\n", mv.mean, mv.var * 6/5.);
 
@@ -40,8 +41,7 @@ int main()
     double d2[] = {
         4.75, 4.48,
         4.90, 5.31,
-        5.05, 4.98, NAN
-    };
+        5.05, 4.98, NAN };
     meanvar mv2 = mean_and_var(d2);
     printf("mean: %.10g var: %.10g\n", mv2.mean, mv2.var * 6/5.);
 
