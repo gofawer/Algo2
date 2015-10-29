@@ -1,0 +1,1 @@
+/media/Disc2/Algo2/ratio_s/build/CMakeFiles/ratio_s.dir
